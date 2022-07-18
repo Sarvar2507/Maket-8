@@ -18,6 +18,8 @@ body {
     margin: 0 auto;
 }
 .header {
+    color: white;
+    background-size: cover;
     background-image: url(./IMG/IMAGE\ \(9\).png);
     height: 800px;
 }
@@ -36,4 +38,35 @@ body {
 }
 .vector_link:hover {
     background-color: #1F2732;
+}
+.vector_list {
+    margin-top: 45px;
+    display: flex;
+}
+.Pages_link {
+    margin-top: 25px;
+    margin-left: 25px;
+    transition: .5s;
+    color: white;
+}
+.Pages_link:hover {
+    color: #D1B06B;
+}
+.hr_vector {
+    margin-top: 35px;
+}
+.box_phone_number {
+    margin-left: 350px;
+    display: flex;
+}
+.number_color {
+    color: #D1B06B;
+}
+.box_number {
+    margin-left: 10px;
+    margin-top: 8px;
+}
+.box_email_address {
+    display: flex;
+    margin-left: 40px;
 }
