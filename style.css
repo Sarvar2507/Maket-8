@@ -70,3 +70,55 @@ body {
     display: flex;
     margin-left: 40px;
 }
+@media (max-width: 1160px) {
+    .container {
+        width: 1060px;
+    }
+    .vector_link {
+        margin-left: 400px;
+    }
+    .box_phone_number {
+        margin-left: 290px;
+    }
+}
+@media (max-width: 1060px) {
+    .container {
+        width: 960px;
+    }
+    .vector_link {
+        margin-left: 290px;
+    }
+    .box_phone_number {
+        margin-left: 190px;
+    }
+}
+@media (max-width: 960px) {
+    .container {
+        width: 860px;
+    }
+    .vector_link {
+        margin-left: 190px;
+    }
+    .box_phone_number {
+        margin-left: 90px;
+    }
+}
+@media (max-width: 860px) {
+    .container {
+        width: 760px;
+    }
+    .vector_link {
+        margin-left: 120px;
+    }
+    .box_phone_number {
+        margin-left: 0px;
+    }
+}
+@media (max-width: 860px) {
+    .container {
+        width: 760px;
+    }
+    .vector_list {
+        margin-left: 200px;
+    }
+}
