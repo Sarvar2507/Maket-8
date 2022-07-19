@@ -33,6 +33,9 @@ body {
 .vector {
     padding-top: 25px;
 }
+.navbar_2 .container {
+    display: flex;
+}
 .hr_color {
     margin-top: 15px;
 }
@@ -56,6 +59,7 @@ body {
     margin-top: 35px;
 }
 .box_phone_number {
+    margin-top: 50px;
     margin-left: 350px;
     display: flex;
 }
@@ -68,6 +72,7 @@ body {
 }
 .box_email_address {
     display: flex;
+    margin-top: 50px;
     margin-left: 40px;
 }
 @media (max-width: 1160px) {
@@ -120,5 +125,127 @@ body {
     }
     .vector_list {
         margin-left: 200px;
+    }
+    .navbar_2 .container {
+        display: block;
+    }
+    .box_email_address {
+        margin-left: 300px;
+    }
+    .box_phone_number {
+        margin-left: 300px;
+}
+}
+@media (max-width: 760px) {
+    .container {
+        width: 660px;
+    }
+    .vector_list {
+        margin-left: 150px;
+    }
+    .navbar_2 .container {
+        display: block;
+    }
+    .box_email_address {
+        margin-left: 220px;
+    }
+    .box_phone_number {
+        margin-left: 220px;
+    }
+    .vector_link {
+        display: none;
+    }
+    .vector {
+        margin-left: 120px;
+    }
+}
+@media (max-width: 660px) {
+    .container {
+        width: 560px;
+    }
+    .vector_list {
+        margin-left: 120px;
+    }
+    .navbar_2 .container {
+        display: block;
+    }
+    .box_email_address {
+        margin-left: 200px;
+    }
+    .box_phone_number {
+        margin-left: 200px;
+    }
+    .vector_link {
+        display: none;
+    }
+    .vector {
+        margin-left: 100px;
+    }
+}
+@media (max-width: 560px) {
+    .container {
+        width: 460px;
+    }
+    .vector_list {
+        margin-left: 70px;
+    }
+    .navbar_2 .container {
+        display: block;
+    }
+    .box_email_address {
+        margin-left: 150px;
+    }
+    .box_phone_number {
+        margin-left: 150px;
+    }
+    .vector_link {
+        display: none;
+    }
+    .vector {
+        margin-left: 30px;
+    }
+}
+@media (max-width: 460px) {
+    .container {
+        width: 360px;
+    }
+    .vector_list {
+        margin-left: 50px;
+    }
+    .navbar_2 .container {
+        display: block;
+    }
+    .box_email_address {
+        margin-left: 100px;
+    }
+    .box_phone_number {
+        margin-left: 100px;
+    }
+    .vector_link {
+        display: none;
+    }
+    .vector {
+        margin-left: 10px;
+        width: 90%;
+    }
+}
+@media (max-width: 360px) {
+    .container {
+        width: 270px;
+    }
+    .vector_list {
+        display: none;
+    }
+    .navbar_2 .container {
+        display: block;
+    }
+    .box_email_address {
+        margin-left: 50px;
+    }
+    .box_phone_number {
+        margin-left: 50px;
+    }
+    .vector {
+        margin-left: 10px;
     }
 }
