@@ -21,7 +21,7 @@ body {
     color: white;
     background-size: cover;
     background-image: url(./IMG/IMAGE\ \(9\).png);
-    height: 800px;
+    height: auto;
 }
 .vector_link {
     margin-left: 450px;
@@ -37,7 +37,7 @@ body {
     display: flex;
 }
 .hr_color {
-    margin-top: 15px;
+    margin-top: 25px;
 }
 .vector_link:hover {
     background-color: #1F2732;
@@ -63,6 +63,7 @@ body {
     margin-left: 350px;
     display: flex;
 }
+
 .number_color {
     color: #D1B06B;
 }
@@ -75,6 +76,40 @@ body {
     margin-top: 50px;
     margin-left: 40px;
 }
+.main .container {
+    display: flex;
+    justify-content: space-between;
+}
+.main_box1 {
+    width: 48%;
+    margin-top: 50px;
+}
+.main_title {
+    margin-top: 15px;
+    font-size: 45px;
+    font-weight: 300;
+}
+.main_textColor {
+    color: #D1B06B;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.main_wrapper {
+    margin-top: 15px;
+    border: 2px solid #D1B06B;
+    padding: 10px 35px;
+    color: white;
+    transition: .5s;
+}
+.main_wrapper:hover {
+    background-color: #D1B06B;
+    color: black;
+    font-weight: bold;
+}
+.box_main {
+    width: 50%;
+}
+
 @media (max-width: 1160px) {
     .container {
         width: 1060px;
